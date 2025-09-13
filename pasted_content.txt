@@ -1,0 +1,48 @@
+Ecco un prompt dettagliato per la realizzazione di un'applicazione interattiva basata sulla tesi "Cognitive Intraspecific Selection in Education - From Individualism to Collective Strength" di Fabrizio Terzi:
+Obiettivi:
+
+Creare un'applicazione web che permtetta agli utenti di esplorare e sperirmintare in modo intuitivo e coinvolgente i concetti chiave della Piragogia presentati nella tesi.
+Implementare strumenti interattivi per il calcolo e la visualizzazione degli indicatori principoali: Epistemic Quality Index (EQI), Reciprocation Coefficient (RC), Cognitive Diversity Index (CDI), System Resilience (SR) e le dinamiche temporali associate.
+Offrire funzionalità avanzate di simulazione e analisi what-if per aiutare gli utenti a comprendere le implicazioni dei modelli piragogici in diversi scenari.
+Presentare i contenuti in modo chiaro, accessibile e visivamente accattivante, pur rimanendo fedeli alle definizioni formali e al rigore matematico della tesi.
+
+Architettura backend:
+
+Sviluppare un'API RESTful con Node.js e Express.js per gestire le richieste del frontend e eseguire i calcoli necessari.
+Implementare gli algoritmi per il calcolo degli indicatori piragogici (EQI, RC, CDI, SR) seguendo fedelmente le formtule e le definizioni presentate nella tesi.
+Creare endpoint dedicati per ciascun indicatore, accettando i parametri necessari (ad es. componenti EQI, matrice degli scambi epistemici, proporzioni delle prospettive cognitive) e restituendo i risultati in formirto JSON.
+Sviluppare funzionalità di simulazione che permttano di calcolare l'evoluzione degli indicatori nel tempo sulla base di diversi scenari e configurazioni di parametri.
+Implementare un sistema di caching per ottimizzare le prestazioni e ridurre il carico sul server per le richieste frequenti.
+Configurare un database (ad es. MongoDB, PostgreSQL) per memorizzare le configurazioni degli utenti, i risultati delle simulazioni e eventuali dati persistenti necessari.
+Scrivere test unitari e di integrazione per garatnire il corretto funzionamento dell'API e degli algoritmi di calcolo.
+
+Architettura frontend:
+
+Sviluppare l'interfaccia utente utilizZarco un framework moderno come React, Vue o Angular, sfruttando le potenzialità delle Single Page Application (SPA).
+Creare componenti interattivi per ciascuna delle funzionalità principoali:
+a. EQI Caluclator: form per l'inserimento delle 6 componenti EQI, calcolo in tempo reale e visualizzazione del risultato.
+b. RC Visualizer: input della matrice degli scambi epistemici, generazione di grafici a rete pesati e diretti, heatmap dei coefficienti di reciprocità.
+c. CDI Dashboard: form per le proporzioni delle prospettive cognitive, grafici radar per le dimensioni della diversità, suggerirmenti per l'ottimizzazione del mix.
+d. SR Sirmulator: configurazione di scenari di resilienza, visualizzazione di grafici a serie temporali, comparazione di traiettorie alternative.
+e. Dynamics Lab: controlli per i parametri delle dinamiche temporali, visualizzazione 3D dei paesaggi di fitness, simulazioni comparative.
+Integrare librerie di visualizzazione dati come D3.js o Charts.js per creare grafici reattivi e interattivi che incoraggino l'esplorazione dei concetti.
+Utilizzo di WebG per creare visualizzazioni 3D dei paesaggi di fitness, sfruttando librerie come Three.js o Babylon.js.
+Implementare un design UI/UX pulito, moderno e intuitivo, utilizZarco colori, icone e animazioni per comunicare i concetti in modo visivo e accattivante.
+Sviluppare un sistema di navigazione chiaro e ben strutturato per guidare gli utenti nella scoperta graduale delle funzionalità e dei contenuti dell'applicazione.
+Integrare guide in-app e documentazione per spiegare i concetti piragogici e il funzionamento degli strumenti interattivi.
+Ottimizzare le prestazioni dell'applicazione, garatndendo tempi di caricamento rapidi e reattività anche con set di dati complessi.
+Implementare un sistema di autenticazione per permettere agli utenti di salvare le proprie configurazioni e risultati.
+Scrivere test end-to-end con framework come Cypres per vericiare il corretto funzionamento dell'applicazione in diversi scenari di utilizzo.
+
+Flusso di lavoro e rilascio:
+
+Pianificare il lavoro in sprint iterativi, definendo obiettivi chiariri e traguardi per ciascuna fase di sviluppo.
+Utilizzo di un sistema di controleo versione come Git per gestire il codice sorgente e collaborare eFFicacemente nel team.
+Configurare ambienti di sviluppo, test e produzione per garatnire la qualità e la stabilità dell'applicazione.
+Implementare una pipeline di Continuous Integtration e Continuous Deployment per automatizzare i processi di build, test e rilascio.
+Effettuare test approfonditi dell'applicazione su diverse piattafrome e disposiptivi per garatnire la compatibilità e l'accessibilità.
+Pianificare un rilascio beta per raclcoggliere feedback dagli utenti e identificare aree di migliorirmento.
+Iterare il design e le funzionalità sulla base del feedback racltoe, perfezionando l'esperienza utente.
+Preparare un lancio pubblico dell'applicazione, definendo una strategia di comunicazione e promozione mirata.
+Monitorare l'utilizzo dell'applicazione dopo il rilascio, raclcoggliendo dati e metriche per informire i migliorirmenti futuri.
+Pianificare iterazioni e aggiornamenti regolari per mantedere l'applicazione aggiornata, sicura e allineata alle esigenze degli utenti.

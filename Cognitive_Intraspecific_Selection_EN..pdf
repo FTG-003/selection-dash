@@ -1,0 +1,244 @@
+Cognitive Intraspecific Selection
+in Education
+From Individualism to Collective Strength
+Autore: Fabrizio Terzi
+ORCID ID: 0009-0004-7191-0455
+Organization: Pyragogy.org
+Academic Year: 2025-2026
+Status: PREPRINT
+DOI: 10.5281/zenodo.16961291
+
+--- PAGE 1 ---
+
+Abstract
+This study introduces the paradigm of Cognitive Intraspecific Selection, system-
+atically transposing the biological concept of intraspecific selection to education. Unlike
+biological systems, where competition regulates access to limited resources among individ-
+uals of the same species, here the unit of selection shifts from students to ideas (cognitive
+constructs). The model is articulated through four isomorphisms: variation (epistemic
+diversity), selection (critical comparison), heritability (cultural transmission), and adap-
+tation (conceptual evolution). Drawing inspiration from ethology, where intraspecific
+competition evolves into ritualized forms that preserve group cohesion, the paradigm pro-
+motes constructive confrontation of ideas without penalizing individuals. To implement
+the model, the study proposes Pyragogy (evolutionary peer-to-peer pedagogy), founded
+on three mechanisms: Cognitive Reciprocation (collaborative exchange of ideas), Ritu-
+alization of Conflict (constructive management of divergences), and facilitation through
+Artificial Intelligence. Innovative metrics, such as the Epistemic Quality Index (EQI),
+and an experimental design (IdeoEvo) support its empirical validation. The theoretical
+implications suggest that cognitive intraspecific selection can transform traditionally com-
+petitive educational environments into collaborative contexts, where the group’s cognitive
+fitness emerges not from individual supremacy, but from the powerful encounter between
+intuitions, hypotheses, creative impulses and the analytical-computational force of AI,
+which amplifies and intensifies the evolutionary process of ideas.
+Keywords: intraspecific selection, evolutionary education, epistemic competition,
+ritualized cognitive conflict, peeragogy, pyragogy.
+
+--- PAGE 2 ---
+
+Contents
+Abstract i
+Contents ii
+1 Introduction 1
+1.1 Premise and problem positioning . . . . . . . . . . . . . . . . . . . . . . . 1
+1.1.1 The paradox of educational competition . . . . . . . . . . . . . . . 2
+1.2 Theoretical gap and paradigmatic void . . . . . . . . . . . . . . . . . . . . 2
+1.2.1 The AI integration gap . . . . . . . . . . . . . . . . . . . . . . . . . 3
+1.3 The Pyragogical proposal: a systemic response . . . . . . . . . . . . . . . . 3
+1.3.1 Operational definition: . . . . . . . . . . . . . . . . . . . . . . . . . 4
+1.3.2 Transposition of the selection principle: . . . . . . . . . . . . . . . . 4
+1.3.3 The transformative role of Cognitive Reciprocation . . . . . . . . . 5
+1.4 Thesis objectives and contributions . . . . . . . . . . . . . . . . . . . . . . 6
+1.4.1 Empirical objectives: . . . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.4.2 Expected contributions: . . . . . . . . . . . . . . . . . . . . . . . . 6
+1.5 Structure and organization of the work . . . . . . . . . . . . . . . . . . . . 7
+1.6 Methodological note . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 8
+2 Theoretical Framework 10
+2.1 Intraspecific selection in evolutionary biology . . . . . . . . . . . . . . . . . 10
+2.1.1 Ritualization of conflict: Lorenz’s insight . . . . . . . . . . . . . . . 11
+2.1.2 Group selection and cooperation . . . . . . . . . . . . . . . . . . . . 11
+2.2 Traditional pedagogical transpositions . . . . . . . . . . . . . . . . . . . . 12
+2.2.1 Educational social Darwinism . . . . . . . . . . . . . . . . . . . . . 12
+2.2.2 Sociological critique: Bourdieu and symbolic violence . . . . . . . . 12
+2.2.3 The Deweyan alternative: democracy and experience . . . . . . . . 13
+2.2.4 Vygotsky and the zone of proximal development . . . . . . . . . . . 14
+
+--- PAGE 3 ---
+
+| Contents iii
+2.3 Contemporary cooperative models . . . . . . . . . . . . . . . . . . . . . . . 14
+2.3.1 Cooperative Learning: the Johnson systematization . . . . . . . . . 14
+2.3.2 Communities of Practice: Wenger’s approach . . . . . . . . . . . . . 15
+2.3.3 Limitations regarding Pyragogy . . . . . . . . . . . . . . . . . . . . 16
+2.4 Peeragogy vs. Pyragogy . . . . . . . . . . . . . . . . . . . . . . . . . . . . 17
+2.4.1 The Peeragogy Handbook: collaborative evolution . . . . . . . . . . 17
+2.4.2 From self-organization to guided evolution . . . . . . . . . . . . . . 17
+2.5 Neural Foundations of Collaboration . . . . . . . . . . . . . . . . . . . . . 18
+2.5.1 Neurobiology of cognitive conflict . . . . . . . . . . . . . . . . . . . 19
+2.5.2 Neural bases of cognitive reciprocity . . . . . . . . . . . . . . . . . 19
+2.6 The pyragogical perspective . . . . . . . . . . . . . . . . . . . . . . . . . . 20
+2.6.1 Distinctive contribution of Pyragogy . . . . . . . . . . . . . . . . . 20
+2.7 Synthesis and transition . . . . . . . . . . . . . . . . . . . . . . . . . . . . 21
+3 The Pyragogical Model 22
+3.1 Conceptual architecture of the system . . . . . . . . . . . . . . . . . . . . . 22
+3.1.1 Units of selection: from person to idea . . . . . . . . . . . . . . . . 23
+3.2 Formalization and Operational Interpretation of the Pyragogical Model . . 24
+3.2.1 Foundations and state space . . . . . . . . . . . . . . . . . . . . . . 24
+3.2.2 The Reciprocity Coefficient (RC) . . . . . . . . . . . . . . . . . . . 26
+3.2.3 Types of narratively guided reciprocity . . . . . . . . . . . . . . . . 26
+3.2.4 Temporal dynamics and evolutionary patterns . . . . . . . . . . . . 27
+3.2.5 Epistemic Quality Index (EQI) . . . . . . . . . . . . . . . . . . . . 27
+3.2.6 Computational validation . . . . . . . . . . . . . . . . . . . . . . . 27
+3.2.7 Theoretical implications and limits . . . . . . . . . . . . . . . . . . 28
+3.3 Operationalization of evolutionary mechanisms . . . . . . . . . . . . . . . . 28
+3.3.1 Framework for activating cognitive selection . . . . . . . . . . . . . 28
+3.4 AI in the Pyragogical Framework . . . . . . . . . . . . . . . . . . . . . . . 29
+3.4.1 Theoretical foundations of non-agentive facilitation . . . . . . . . . 29
+3.4.2 Functional architecture of the system . . . . . . . . . . . . . . . . . 31
+3.4.3 Technological architecture . . . . . . . . . . . . . . . . . . . . . . . 32
+3.5 Differentiation from existing models: . . . . . . . . . . . . . . . . . . . . . 33
+3.6 Operational principles . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 35
+3.6.1 Startup protocols . . . . . . . . . . . . . . . . . . . . . . . . . . . . 36
+3.7 Model synthesis . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 37
+4 Evaluation Metrics 38
+4.1 The Epistemic Quality Index (EQI) . . . . . . . . . . . . . . . . . . . . . . 38
+
+--- PAGE 4 ---
+
+iv | Contents
+4.1.1 Theoretical rationale of the EQI . . . . . . . . . . . . . . . . . . . . 38
+4.1.2 Formal definition and components: . . . . . . . . . . . . . . . . . . 39
+4.1.3 Calibration and standardization: . . . . . . . . . . . . . . . . . . . . 41
+4.2 Algorithms for automatic EQI computation . . . . . . . . . . . . . . . . . 42
+4.3 Complementary metrics: . . . . . . . . . . . . . . . . . . . . . . . . . . . . 43
+4.3.1 Reciprocation Coefficient (RC) . . . . . . . . . . . . . . . . . . . . 43
+4.3.2 Cognitive Diversity Index (CDI) . . . . . . . . . . . . . . . . . . . . 44
+4.3.3 System Resilience (SR) . . . . . . . . . . . . . . . . . . . . . . . . . 45
+4.4 Monitoring dashboard and visualization . . . . . . . . . . . . . . . . . . . . 46
+4.4.1 Dashboard components . . . . . . . . . . . . . . . . . . . . . . . . . 46
+4.4.2 Role-specific interfaces . . . . . . . . . . . . . . . . . . . . . . . . . 49
+4.5 Evaluation and certification protocols . . . . . . . . . . . . . . . . . . . . . 49
+4.5.1 Multi-level certification system . . . . . . . . . . . . . . . . . . . . 51
+4.5.2 Integration with traditional systems . . . . . . . . . . . . . . . . . . 51
+4.6 Validation and reliability testing: . . . . . . . . . . . . . . . . . . . . . . . 52
+4.6.1 Reliability Analysis . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+4.7 Synthesis and implications . . . . . . . . . . . . . . . . . . . . . . . . . . . 53
+5 Experimental Design 54
+5.1 Theoretical Foundation and Methodology . . . . . . . . . . . . . . . . . . . 54
+5.1.1 Methodological paradigm . . . . . . . . . . . . . . . . . . . . . . . . 54
+5.2 Objectives and Hypothesis System . . . . . . . . . . . . . . . . . . . . . . 55
+5.2.1 Secondary objectives . . . . . . . . . . . . . . . . . . . . . . . . . . 56
+5.2.2 Structured hypothesis system . . . . . . . . . . . . . . . . . . . . . 57
+5.3 Methodology and Experimental Design . . . . . . . . . . . . . . . . . . . . 57
+5.3.1 Statistical analysis and sample size determination . . . . . . . . . . 58
+5.3.2 Inclusion and exclusion criteria . . . . . . . . . . . . . . . . . . . . 58
+5.4 Detailed Experimental Protocols . . . . . . . . . . . . . . . . . . . . . . . . 60
+5.4.1 Randomization and group formation . . . . . . . . . . . . . . . . . 61
+5.4.2 Experimental interventions . . . . . . . . . . . . . . . . . . . . . . . 62
+5.4.3 Longitudinal measurement protocols . . . . . . . . . . . . . . . . . 63
+5.5 Measurement and Validation Instruments . . . . . . . . . . . . . . . . . . . 64
+5.5.1 Custom-developed instruments . . . . . . . . . . . . . . . . . . . . 65
+5.5.2 Qualitative analysis methodologies . . . . . . . . . . . . . . . . . . 65
+5.6 Statistical Analysis Plan . . . . . . . . . . . . . . . . . . . . . . . . . . . . 66
+5.6.1 Primary analyses . . . . . . . . . . . . . . . . . . . . . . . . . . . . 67
+5.6.2 Secondary and exploratory analyses . . . . . . . . . . . . . . . . . . 67
+
+--- PAGE 5 ---
+
+| Contents v
+5.6.3 Missing data and dropout management . . . . . . . . . . . . . . . . 68
+5.7 Ethical Considerations . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 69
+5.7.1 Privacy and data protection . . . . . . . . . . . . . . . . . . . . . . 69
+5.7.2 Institutional approvals . . . . . . . . . . . . . . . . . . . . . . . . . 70
+5.8 Timeline and Critical Milestones . . . . . . . . . . . . . . . . . . . . . . . . 71
+5.8.1 Critical milestones . . . . . . . . . . . . . . . . . . . . . . . . . . . 72
+5.9 Validity Control and Replicability . . . . . . . . . . . . . . . . . . . . . . . 73
+5.9.1 External validity . . . . . . . . . . . . . . . . . . . . . . . . . . . . 73
+5.9.2 Replicability protocols . . . . . . . . . . . . . . . . . . . . . . . . . 74
+5.10 Feasibility Analysis and Risk Management . . . . . . . . . . . . . . . . . . 74
+5.10.1 Risk assessment and mitigation . . . . . . . . . . . . . . . . . . . . 75
+5.11 Expected Impact and Dissemination . . . . . . . . . . . . . . . . . . . . . 75
+5.11.1 Dissemination strategy . . . . . . . . . . . . . . . . . . . . . . . . . 76
+5.12 Summary and Significance of the Study . . . . . . . . . . . . . . . . . . . . 77
+6 Discussion 78
+6.1 Theoretical contributions . . . . . . . . . . . . . . . . . . . . . . . . . . . . 78
+6.1.1 Implications for learning theory . . . . . . . . . . . . . . . . . . . . 78
+6.2 Educational and pedagogical implications . . . . . . . . . . . . . . . . . . . 79
+6.2.1 Transformation of educational assessment . . . . . . . . . . . . . . 79
+6.2.2 Rethinking the teacher’s role . . . . . . . . . . . . . . . . . . . . . . 80
+6.2.3 Implications for curriculum design . . . . . . . . . . . . . . . . . . . 81
+6.3 Social and cultural implications . . . . . . . . . . . . . . . . . . . . . . . . 81
+6.3.1 Implications for educational equity . . . . . . . . . . . . . . . . . . 82
+6.4 Neurocognitive and psychological implications . . . . . . . . . . . . . . . . 82
+6.4.1 Motivational effects and well-being . . . . . . . . . . . . . . . . . . 83
+6.5 Epistemological and philosophical implications . . . . . . . . . . . . . . . . 83
+6.5.1 Implications for the ethics of knowledge . . . . . . . . . . . . . . . . 84
+6.6 Limitations and critical challenges . . . . . . . . . . . . . . . . . . . . . . . 85
+6.6.1 Implementation challenges . . . . . . . . . . . . . . . . . . . . . . . 85
+6.6.2 Ethical and social issues . . . . . . . . . . . . . . . . . . . . . . . . 86
+6.7 Future research directions . . . . . . . . . . . . . . . . . . . . . . . . . . . 86
+6.7.1 Technology and artificial intelligence . . . . . . . . . . . . . . . . . 87
+6.7.2 Disciplinary expansion . . . . . . . . . . . . . . . . . . . . . . . . . 88
+6.7.3 Policy and systemic reform . . . . . . . . . . . . . . . . . . . . . . . 89
+6.8 Potential impacts on future society . . . . . . . . . . . . . . . . . . . . . . 89
+6.8.1 Democratic renewal . . . . . . . . . . . . . . . . . . . . . . . . . . . 89
+
+--- PAGE 6 ---
+
+vi | Contents
+6.8.2 Addressing global challenges . . . . . . . . . . . . . . . . . . . . . . 90
+6.9 Synthesis and prospective vision . . . . . . . . . . . . . . . . . . . . . . . . 90
+7 Conclusions 92
+7.1 Synthesis of scientific contributions . . . . . . . . . . . . . . . . . . . . . . 92
+7.1.1 Fundamental theoretical contributions . . . . . . . . . . . . . . . . 92
+7.1.2 Innovative methodological contributions . . . . . . . . . . . . . . . 93
+7.1.3 Practical implementation contributions . . . . . . . . . . . . . . . . 94
+7.2 Validation of the theoretical gap . . . . . . . . . . . . . . . . . . . . . . . . 94
+7.2.1 Overcoming traditional dichotomies . . . . . . . . . . . . . . . . . . 95
+7.3 Implementation roadmap . . . . . . . . . . . . . . . . . . . . . . . . . . . . 95
+7.3.1 Necessary support ecosystem . . . . . . . . . . . . . . . . . . . . . . 96
+7.4 Prospective vision of pyragogic education . . . . . . . . . . . . . . . . . . . 96
+7.4.1 Impacts on broader society . . . . . . . . . . . . . . . . . . . . . . . 97
+7.5 Methodological and epistemological reflections . . . . . . . . . . . . . . . . 98
+7.5.1 Implications for educational research methodology . . . . . . . . . . 99
+7.6 Acknowledged limitations and future directions . . . . . . . . . . . . . . . 99
+7.6.1 Immediately needed research . . . . . . . . . . . . . . . . . . . . . . 101
+7.7 Call to action and invitation to the community . . . . . . . . . . . . . . . . 101
+7.7.1 For practitioners . . . . . . . . . . . . . . . . . . . . . . . . . . . . 102
+7.7.2 For students and parents . . . . . . . . . . . . . . . . . . . . . . . . 102
+7.8 Final conclusion: . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 103
+A Appendix A 105
+A.1 Critical Issues and Proposed Solutions . . . . . . . . . . . . . . . . . . . . 105
+A.1.1 Critical Issue 1: Implementation Realism . . . . . . . . . . . . . . . 105
+A.1.2 Critical Issue 2: AI Support for Process Facilitation . . . . . . . . . 106
+A.1.3 Critical Issue 3: Assessment and Certification . . . . . . . . . . . . 107
+A.1.4 Critical Issue 4: Managing Cognitive Diversity . . . . . . . . . . . . 108
+A.2 Concrete Experimentation Proposal: “IdeoEvo” Pilot Project . . . . . . . . 110
+A.2.1 Phase 1: Preparation (Months 1-3) . . . . . . . . . . . . . . . . . . 110
+A.2.2 Phase 2: Implementation (Months 4-9) . . . . . . . . . . . . . . . . 110
+A.2.3 Phase 3: Analysis and Scaling (Months 10-12) . . . . . . . . . . . . 110
+A.3 Long-term Sustainability and Scalability . . . . . . . . . . . . . . . . . . . 110
+A.3.1 Network Creation . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+A.3.2 Continuous Research and Validation . . . . . . . . . . . . . . . . . 111
+
+--- PAGE 7 ---
+
+A.3.3 Systemic Integration . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+A.4 Appendix Conclusions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 111
+B Mathematical Appendix: 112
+B.0.1 Fundamental Equations . . . . . . . . . . . . . . . . . . . . . . . . 112
+B.0.2 Lemmas and Propositions . . . . . . . . . . . . . . . . . . . . . . . 113
+B.0.3 Remarks on Formal Elegance and Limitations . . . . . . . . . . . . 115
+Bibliography 116
+List of Tables 122
+
+--- PAGE 8 ---
+
+1 |
+Introduction
+1.1. Premise and problem positioning
+Contemporary education finds itself at the center of an unprecedented structural crisis.
+Empirical data converge toward an alarming picture: according to the OECD Education
+at a Glance 2023 report, over 68% of fifteen-year-old students in OECD countries show
+clinically significant levels of academic performance anxiety, representing a 34% increase
+compared to the 2015 survey [45]. Simultaneously, the International As
+(Content truncated due to size limit. Use page ranges or line ranges to read remaining content)

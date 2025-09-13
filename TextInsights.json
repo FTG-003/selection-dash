@@ -1,0 +1,23 @@
+[
+    {
+        "category": "Tendenze EQI",
+        "title": "Miglioramento dell'EQI nel tempo",
+        "description": "L'Epistemic Quality Index (EQI) ha mostrato una tendenza positiva nell'ultimo periodo, indicando un miglioramento complessivo nella qualità epistemica delle idee generate."
+    },
+    {
+        "category": "Analisi RC",
+        "title": "Alta Reciprocità tra i Gruppi",
+        "description": "Il Coefficiente di Reciprocità (RC) è costantemente elevato, suggerendo un'efficace collaborazione e scambio di idee tra i diversi gruppi di partecipanti."
+    },
+    {
+        "category": "Diversità Cognitiva",
+        "title": "Variazioni nella Diversità Cognitiva",
+        "description": "Il Cognitive Diversity Index (CDI) presenta fluttuazioni, indicando periodi di maggiore e minore diversità nelle prospettive cognitive. Questo potrebbe essere un'area per ulteriori indagini."
+    },
+    {
+        "category": "Resilienza del Sistema",
+        "title": "Stabilità della Resilienza del Sistema",
+        "description": "La System Resilience (SR) si mantiene su livelli stabili e soddisfacenti, dimostrando la capacità del sistema di adattarsi e superare le sfide."
+    }
+]
+
