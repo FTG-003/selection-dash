@@ -1,3 +1,4 @@
+{
   "name": "manus-analytics-dashboard",
   "description": "A free, open source, Next 14, React 18 admin dashboard template created using Mantine 7",
   "version": "3.1.0",
@@ -16,4 +17,6 @@
   "dependencies": {
     "@builder.io/vite-plugin-jsx-loc": "^0.1.1",
     "@changesets/cli": "2.26.2",
-    "@clerk/nextjs": "^6.23.0",
+    "@clerk/nextjs": "^6.23.0"
+  }
+}
