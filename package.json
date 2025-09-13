@@ -17,6 +17,17 @@
   "dependencies": {
     "@builder.io/vite-plugin-jsx-loc": "^0.1.1",
     "@changesets/cli": "2.26.2",
-    "@clerk/nextjs": "^6.23.0"
+    "@clerk/nextjs": "^6.23.0",
+    "next": "^14.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "eslint": "^8.0.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.0.0"
   }
 }
