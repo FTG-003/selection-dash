@@ -2,7 +2,7 @@
 import pandas as pd
 import json
 
-df = pd.read_json("/home/ubuntu/cyber-dashboard-template-project/public/mocks/simulated_data.json")
+df = pd.read_json("/workspace/public/mocks/simulated_data.json")
 
 # Converti la colonna 'Date' in formato datetime
 df["Date"] = pd.to_datetime(df["Date"])
@@ -36,7 +36,7 @@ revenue_chart_data = {
     "categories": daily_avg["Date"].tolist()
 }
 
-with open("/home/ubuntu/cyber-dashboard-template-project/public/mocks/RevenueChart.json", "w") as f:
+with open("/workspace/public/mocks/RevenueChart.json", "w") as f:
     json.dump(revenue_chart_data, f, indent=4)
 
 print("Dati per RevenueChart generati e salvati in RevenueChart.json")

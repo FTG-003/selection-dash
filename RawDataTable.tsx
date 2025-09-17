@@ -42,6 +42,7 @@ const RawDataTable = ({ data, error, loading }: RawDataTableProps) => {
   const [pageSize, setPageSize] = useState(PAGE_SIZES[1]); // Default to 20 for raw data
   const [selectedRecords, setSelectedRecords] = useState<any[]>([]);
   const [records, setRecords] = useState<any[]>(data?.slice(0, pageSize) || []);
+  const [totalRecordsCount, setTotalRecordsCount] = useState<number>(data?.length || 0);
   const [sortStatus, setSortStatus] = useState<DataTableSortStatus<any>>({
     columnAccessor: 'Date',
     direction: 'asc',
@@ -160,47 +161,46 @@ const RawDataTable = ({ data, error, loading }: RawDataTableProps) => {
   useEffect(() => {
     const from = (page - 1) * pageSize;
     const to = from + pageSize;
-    const d = sortBy(data || [], sortStatus.columnAccessor) as any[];
-    const dd = sortStatus.direction === 'desc' ? d.reverse() : d;
-    let filtered = dd?.slice(from, to) as any[];
+    const source = (data || []) as any[];
+    const sorted = sortBy(source, sortStatus.columnAccessor) as any[];
+    const sortedWithDirection = sortStatus.direction === 'desc' ? [...sorted].reverse() : sorted;
 
-    if (debouncedQuery || selectedPhases.length || selectedReciprocityTypes.length || selectedGroups.length) {
-      filtered = (data || [])
-        .filter(({ Date, Phase, ReciprocityType, Group }) => {
-          if (
-            debouncedQuery !== '' &&
-            !Date.toLowerCase().includes(debouncedQuery.trim().toLowerCase())
-          ) {
-            return false;
-          }
+    const hasAnyFilter = Boolean(
+      debouncedQuery || selectedPhases.length || selectedReciprocityTypes.length || selectedGroups.length,
+    );
 
-          if (
-            selectedPhases.length &&
-            !selectedPhases.some((s) => s === Phase)
-          ) {
-            return false;
-          }
+    const passesFilters = ({ Date, Phase, ReciprocityType, Group }: any) => {
+      if (
+        debouncedQuery !== '' &&
+        !Date.toLowerCase().includes(debouncedQuery.trim().toLowerCase())
+      ) {
+        return false;
+      }
 
-          if (
-            selectedReciprocityTypes.length &&
-            !selectedReciprocityTypes.some((s) => s === ReciprocityType)
-          ) {
-            return false;
-          }
+      if (selectedPhases.length && !selectedPhases.some((s) => s === Phase)) {
+        return false;
+      }
 
-          if (
-            selectedGroups.length &&
-            !selectedGroups.some((s) => s === Group)
-          ) {
-            return false;
-          }
+      if (
+        selectedReciprocityTypes.length &&
+        !selectedReciprocityTypes.some((s) => s === ReciprocityType)
+      ) {
+        return false;
+      }
 
-          return true;
-        })
-        ?.slice(from, to);
-    }
+      if (selectedGroups.length && !selectedGroups.some((s) => s === Group)) {
+        return false;
+      }
 
-    setRecords(filtered || []);
+      return true;
+    };
+
+    const filteredAll = hasAnyFilter
+      ? sortedWithDirection.filter(passesFilters)
+      : sortedWithDirection;
+
+    setTotalRecordsCount(filteredAll.length);
+    setRecords(filteredAll.slice(from, to));
   }, [sortStatus, data, page, pageSize, debouncedQuery, selectedPhases, selectedReciprocityTypes, selectedGroups]);
 
   return error ? (
@@ -218,11 +218,7 @@ const RawDataTable = ({ data, error, loading }: RawDataTableProps) => {
         selectedRecords={selectedRecords}
         // @ts-ignore
         onSelectedRecordsChange={setSelectedRecords}
-        totalRecords={
-          debouncedQuery || selectedPhases.length > 0 || selectedReciprocityTypes.length > 0 || selectedGroups.length > 0
-            ? records.length
-            : data?.length || 0
-        }
+        totalRecords={totalRecordsCount}
         recordsPerPage={pageSize}
         page={page}
         onPageChange={(p) => setPage(p)}

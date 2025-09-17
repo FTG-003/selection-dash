@@ -44,11 +44,11 @@ def generate_data(num_entries=1000):
 df_simulated = generate_data(num_entries=1000)
 
 # Salva come CSV
-df_simulated.to_csv('/home/ubuntu/simulated_data.csv', index=False)
+df_simulated.to_csv('/workspace/public/mocks/simulated_data.csv', index=False)
 
 # Salva come JSON
-df_simulated.to_json('/home/ubuntu/simulated_data.json', orient='records', indent=4)
+df_simulated.to_json('/workspace/public/mocks/simulated_data.json', orient='records', indent=4)
 
-print('Dati simulati generati e salvati in simulated_data.csv e simulated_data.json')
+print('Dati simulati generati e salvati in public/mocks/simulated_data.csv e public/mocks/simulated_data.json')
 
 

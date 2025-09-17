@@ -2,7 +2,7 @@
 import pandas as pd
 import json
 
-df = pd.read_json("/home/ubuntu/cyber-dashboard-template-project/public/mocks/simulated_data.json")
+df = pd.read_json("/workspace/public/mocks/simulated_data.json")
 
 # Aggrega i dati per Fase e Gruppo, calcolando la media dell'EQI
 phase_group_avg_eqi = df.groupby(["Phase", "Group"])["EQI"].mean().unstack(fill_value=0)
@@ -20,7 +20,7 @@ mobile_desktop_chart_data = {
     "categories": phase_group_avg_eqi.index.tolist()
 }
 
-with open("/home/ubuntu/cyber-dashboard-template-project/public/mocks/MobileDesktopChart.json", "w") as f:
+with open("/workspace/public/mocks/MobileDesktopChart.json", "w") as f:
     json.dump(mobile_desktop_chart_data, f, indent=4)
 
 print("Dati per MobileDesktopChart generati e salvati in MobileDesktopChart.json")

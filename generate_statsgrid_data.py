@@ -2,7 +2,7 @@
 import pandas as pd
 import json
 
-df = pd.read_json("/home/ubuntu/cyber-dashboard-template-project/public/mocks/simulated_data.json")
+df = pd.read_json("/workspace/public/mocks/simulated_data.json")
 
 # Calcola le metriche per il periodo corrente (es. ultimo mese)
 current_month_data = df[df["Date"] >= (pd.to_datetime(df["Date"]).max() - pd.DateOffset(months=1)).strftime("%Y-%m-%d")]
@@ -56,7 +56,7 @@ stats_data = {
     ]
 }
 
-with open("/home/ubuntu/cyber-dashboard-template-project/public/mocks/StatsGrid.json", "w") as f:
+with open("/workspace/public/mocks/StatsGrid.json", "w") as f:
     json.dump(stats_data, f, indent=4)
 
 print("Dati per StatsGrid generati e salvati in StatsGrid.json")
