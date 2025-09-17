@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo } from 'react';
 
-import { MantineProvider, MantineTheme } from '@mantine/core';
+import { MantineProvider, MantineThemeOverride } from '@mantine/core';
 import { DatesProvider } from '@mantine/dates';
 import { ModalsProvider } from '@mantine/modals';
 import { Notifications } from '@mantine/notifications';
@@ -20,7 +20,7 @@ type Props = { children: React.ReactNode };
 function ThemeProvider({ children }: { children: React.ReactNode }) {
   const { config } = useThemeCustomizer();
 
-  const dynamicTheme: MantineTheme = useMemo(() => {
+  const dynamicTheme: MantineThemeOverride = useMemo(() => {
     return createDynamicTheme({
       primaryColor: config.appearance.primaryColor,
       borderRadius: config.appearance.borderRadius,

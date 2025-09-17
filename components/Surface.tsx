@@ -1,8 +1,15 @@
 'use client';
 
 import { Paper, PaperProps } from '@mantine/core';
+import React from 'react';
 
-export function Surface(props: PaperProps) {
-  return <Paper radius="md" withBorder {...props} />;
+type SurfaceProps = React.PropsWithChildren<PaperProps>;
+
+export function Surface({ children, ...props }: SurfaceProps) {
+  return (
+    <Paper radius="md" withBorder {...props}>
+      {children}
+    </Paper>
+  );
 }
 
