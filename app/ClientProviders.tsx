@@ -3,9 +3,6 @@
 import { useEffect, useMemo } from 'react';
 
 import { MantineProvider, MantineThemeOverride } from '@mantine/core';
-import { DatesProvider } from '@mantine/dates';
-import { ModalsProvider } from '@mantine/modals';
-import { Notifications } from '@mantine/notifications';
 
 import {
   COLOR_SCHEMES,
@@ -73,18 +70,7 @@ function ThemeProvider({ children }: { children: React.ReactNode }) {
       theme={dynamicTheme}
       defaultColorScheme={config.appearance.colorScheme}
     >
-      <DatesProvider
-        settings={{
-          firstDayOfWeek: 0,
-          weekendDays: [0],
-          timezone: 'UTC',
-        }}
-      >
-        <Notifications position="bottom-right" zIndex={1000} />
-        <ModalsProvider>
-          <MainLayout>{children}</MainLayout>
-        </ModalsProvider>
-      </DatesProvider>
+      <MainLayout>{children}</MainLayout>
     </MantineProvider>
   );
 }
