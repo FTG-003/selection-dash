@@ -5,11 +5,7 @@ import { Open_Sans } from 'next/font/google';
 
 import ClientProviders from './ClientProviders';
 import '@mantine/core/styles.css';
-import '@mantine/dates/styles.css';
-import '@mantine/carousel/styles.css';
-import '@mantine/notifications/styles.css';
 import 'mantine-datatable/styles.layer.css';
-import '@mantine/dropzone/styles.css';
 import './globals.css';
 
 // If loading a variable font, you don't need to specify the font weight

@@ -7,32 +7,16 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "",
-    "prettier": "prettier . --write",
-    "commitlint": "commitlint --edit",
-    "changeset:add": "npx changeset",
-    "changeset:release": "npx changeset version",
-    "changeset:publish": "npx changeset publish"
+    "prettier": "prettier . --write"
   },
   "dependencies": {
-    "@builder.io/vite-plugin-jsx-loc": "^0.1.1",
-    "@changesets/cli": "2.26.2",
-    "@clerk/nextjs": "^6.23.0",
-    "@mantine/carousel": "^7.17.8",
     "@mantine/core": "^7.17.8",
-    "@mantine/dates": "^7.17.8",
-    "@mantine/dropzone": "^7.17.8",
     "@mantine/hooks": "^7.17.8",
-    "@mantine/modals": "^7.17.8",
-    "@mantine/notifications": "^7.17.8",
     "@tabler/icons-react": "^3.35.0",
-    "apexcharts": "^5.3.5",
-    "dayjs": "^1.11.18",
     "lodash": "^4.17.21",
     "mantine-datatable": "^7.17.1",
     "next": "^14.0.0",
     "react": "^18.0.0",
-    "react-apexcharts": "^1.7.0",
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
