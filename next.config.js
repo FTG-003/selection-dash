@@ -1,10 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  trailingSlash: false,
-  output: 'export',
-  images: {
-    unoptimized: true
+  experimental: {
+    optimizePackageImports: ['@mantine/core', '@mantine/hooks'],
   }
 };
 
