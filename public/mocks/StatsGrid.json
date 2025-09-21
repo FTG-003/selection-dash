@@ -1,0 +1,24 @@
+{
+  "data": [
+    {
+      "title": "EQI Medio",
+      "value": "0.73",
+      "diff": "+12.5"
+    },
+    {
+      "title": "RC Medio",
+      "value": "0.58",
+      "diff": "+8.2"
+    },
+    {
+      "title": "CDI Medio",
+      "value": "0.34",
+      "diff": "-3.1"
+    },
+    {
+      "title": "SR Medio",
+      "value": "0.76",
+      "diff": "+15.7"
+    }
+  ]
+}

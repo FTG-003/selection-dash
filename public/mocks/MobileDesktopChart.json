@@ -1,0 +1,17 @@
+{
+  "series": [
+    {
+      "name": "Group A",
+      "data": [0.75, 0.68, 0.82]
+    },
+    {
+      "name": "Group B", 
+      "data": [0.71, 0.73, 0.69]
+    },
+    {
+      "name": "Group C",
+      "data": [0.78, 0.65, 0.74]
+    }
+  ],
+  "categories": ["Preparation", "Implementation", "Analysis and Scaling"]
+}
